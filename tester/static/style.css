@@ -1,0 +1,24 @@
+.formContainer {
+    text-align: center;
+}
+
+.formHolder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 300px;
+}
+
+.formBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+
+    background-color: rgb(116, 163, 233);
+    border: 2px solid rgb(51, 64, 122);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}

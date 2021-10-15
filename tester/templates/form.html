@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<form action="{{url_for('form')}}" method="POST">
+    <div class="fromContainer">
+        <textarea type="text" name="formHolder" placeholder="テキストを入力して下さい。" rows="10" class="formHolder"></textarea>
+        <button type="submit" class="formBtn">検証</button>
+    </div>
+
+</form>
+
+</body>
+</html>
